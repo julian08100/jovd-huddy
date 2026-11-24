@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juliet Huddy · JOVD Hart van Brabant</title>
+<meta name="description" content="Een kijkje achter de schermen van de Amerikaanse media met Juliet Huddy. Dinsdag 26 januari 2027, 19:30, ’t Elfde Gebod Tilburg. Meld je aan.">
+<meta name="theme-color" content="#0071cd">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://huddy.jovdhvb.nl/">
+<meta property="og:title" content="Juliet Huddy live in Tilburg · 26 januari">
+<meta property="og:description" content="Een avond over media, macht en Amerikaanse politiek met de oud-presentatrice van Fox &amp; Friends Weekend. Meld je aan bij JOVD Hart van Brabant.">
+<meta property="og:image" content="https://huddy.jovdhvb.nl/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23ec494a'/><circle cx='50' cy='50' r='18' fill='white'/></svg>">
+<style>
+:root{--blue:#0071cd;--blue-d:#0064ba;--navy:#063c7c;--ink:#003384;--cream:#f8eddb;--paper:#fffaf0;--red:#ec494a;--yellow:#ffe073;--line:#ffffff2e;--muted:#d3e4f7}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--navy);color:#fff;font:16px/1.5 Arial,Helvetica,sans-serif;overflow-x:hidden}
+a{color:inherit}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.black{font-family:'Arial Black','Arial Bold',Arial,sans-serif;font-weight:900}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+
+/* stage: het schuine JOVD-vlak uit de banners */
+.stage{position:relative;background:var(--blue);overflow:hidden;isolation:isolate}
+.stage:before{content:'';position:absolute;inset:0;background:var(--blue-d);clip-path:polygon(0 0,20% 0,15% 100%,0 100%);z-index:-1}
+.stage:after{content:'';position:absolute;inset:0;background-image:radial-gradient(#ffffff1f 1px,transparent 1.3px);background-size:22px 22px;z-index:-1;pointer-events:none}
+
+/* topbalk */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:20px;padding-bottom:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:64px;height:auto;color:#fff;flex:none}
+.brand b{display:block;font-size:12px;letter-spacing:.14em;line-height:1.25}
+.brand small{display:block;font-size:11px;letter-spacing:.12em;opacity:.8}
+.back{font-size:13px;font-weight:bold;text-decoration:none;border:2px solid #ffffff55;border-radius:999px;padding:7px 14px;white-space:nowrap;transition:.2s}
+.back:hover{background:#fff;color:var(--ink)}
+
+/* gescheurd papier + stickers */
+.torn{display:inline-block;background:var(--cream);color:var(--ink);padding:.08em .35em .12em;clip-path:polygon(0 6%,4% 0,9% 5%,15% 1%,22% 6%,30% 0,37% 4%,45% 1%,52% 6%,60% 0,68% 5%,75% 1%,83% 6%,90% 0,96% 5%,100% 2%,99% 94%,94% 100%,87% 95%,79% 100%,71% 94%,63% 99%,55% 95%,47% 100%,39% 94%,31% 99%,23% 95%,15% 100%,8% 95%,2% 100%);transform:rotate(-1.6deg)}
+.sticker{display:inline-block;background:var(--yellow);color:var(--ink);font-family:'Arial Black',Arial,sans-serif;padding:8px 14px 7px;transform:rotate(-2.2deg);box-shadow:6px 6px 0 var(--ink);letter-spacing:.01em}
+.tag{display:inline-block;background:var(--red);color:#fff;font-family:'Arial Black',Arial,sans-serif;padding:4px 10px 3px;transform:rotate(-3deg);letter-spacing:.04em}
+.slash{display:inline-block;width:56px;height:26px;position:relative}
+.slash:before,.slash:after{content:'';position:absolute;left:0;height:5px;width:52px;border-radius:5px;background:var(--yellow);transform:rotate(-12deg)}
+.slash:before{top:4px}.slash:after{top:17px;left:4px}
+
+h1,h2,h3{font-family:'Arial Black','Arial Bold',Arial,sans-serif;font-weight:900;letter-spacing:-.02em;line-height:1.02;margin:0}
+.kicker{font-size:12px;font-weight:bold;letter-spacing:.2em;text-transform:uppercase;color:var(--yellow);margin:0 0 14px}
+.lead{font-size:19px;color:#e8f1fb;max-width:560px}
+
+/* secties */
+section.blk{padding-top:84px;padding-bottom:8px}
+section.blk h2{font-size:clamp(32px,5vw,56px);margin-bottom:16px}
+.sub{color:var(--muted);max-width:640px;font-size:17px;margin:0 0 30px}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+
+/* feitenstrip */
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:34px}
+.fact{background:var(--cream);color:var(--ink);padding:16px 16px 14px;transform:rotate(var(--r,0deg));box-shadow:5px 5px 0 #00338466}
+.fact:nth-child(2){--r:1deg}.fact:nth-child(3){--r:-.8deg}.fact:nth-child(4){--r:.6deg}
+.fact span{display:block;font-size:11px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.fact b{display:block;font-family:'Arial Black',Arial,sans-serif;font-size:19px;line-height:1.15;margin-top:4px}
+.fact a{text-decoration-thickness:2px;text-underline-offset:3px}
+
+/* aftellen */
+.count{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+.count div{background:var(--ink);border:2px solid #ffffff22;min-width:78px;padding:10px 10px 8px;text-align:center}
+.count b{display:block;font-family:'Arial Black',Arial,sans-serif;font-size:32px;line-height:1;font-variant-numeric:tabular-nums}
+.count span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+/* formulier */
+.signup{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:56px;align-items:start;padding-top:96px;padding-bottom:90px}
+.card-wrap{position:sticky;top:28px}
+.form{background:var(--paper);color:var(--ink);padding:30px 28px 26px;box-shadow:12px 12px 0 var(--ink);position:relative}
+.form h2{font-size:clamp(30px,4vw,44px);margin:0 0 6px}
+.form .intro{margin:0 0 22px;color:#3a5583}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{margin-bottom:16px}
+.field>label,.legend{display:block;font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;color:var(--ink)}
+.opt{font-weight:normal;letter-spacing:0;text-transform:none;color:#5d6f8f}
+.field input[type=text],.field input[type=email],.field input[type=tel],.field textarea,.field select{width:100%;border:2px solid var(--ink);background:#fff;padding:12px 13px;border-radius:0;color:var(--ink);font-size:16px;transition:box-shadow .15s}
+.field textarea{min-height:92px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;box-shadow:5px 5px 0 var(--blue)}
+.field.bad input,.field.bad textarea{border-color:var(--red);box-shadow:5px 5px 0 var(--red)}
+.err{display:none;color:#c22b2c;font-size:13px;font-weight:bold;margin-top:6px}
+.field.bad .err{display:block}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{position:relative}
+.chips input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.chips span{display:inline-block;border:2px solid var(--ink);padding:9px 14px;font-weight:bold;font-size:14px;background:#fff;transition:.15s;user-select:none}
+.chips input:checked+span{background:var(--ink);color:#fff;box-shadow:4px 4px 0 var(--yellow)}
+.chips input:focus-visible+span{outline:3px solid var(--blue);outline-offset:2px}
+.check{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:start;font-size:14px;margin:6px 0 16px;cursor:pointer}
+.check input{width:22px;height:22px;margin:1px 0 0;accent-color:var(--ink)}
+.go{width:100%;border:0;background:var(--red);color:#fff;font-family:'Arial Black',Arial,sans-serif;font-size:20px;padding:17px 20px 15px;letter-spacing:.01em;box-shadow:6px 6px 0 var(--ink);transition:transform .12s,box-shadow .12s;display:flex;justify-content:center;align-items:center;gap:10px}
+.go:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.go:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--ink)}
+.privacy{font-size:12.5px;color:#55688a;margin:18px 0 0;line-height:1.5}
+.privacy a{color:var(--ink)}
+.hidden{display:none!important}
+
+/* bedankt-scherm */
+.done{text-align:left}
+.done h2{font-size:clamp(30px,4vw,42px)}
+.done p{color:#3a5583}
+.actions{display:grid;gap:10px;margin-top:20px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;border:2px solid var(--ink);background:#fff;color:var(--ink);font-weight:bold;padding:13px 16px;transition:.15s}
+.btn:hover{background:var(--ink);color:#fff}
+.btn.solid{background:var(--ink);color:#fff}
+.btn.solid:hover{background:var(--blue);border-color:var(--blue)}
+.copybox{display:none;margin-top:14px}
+.copybox.show{display:block}
+.copybox textarea{width:100%;min-height:150px;border:2px dashed var(--ink);padding:10px;font:13px/1.45 'Courier New',monospace;background:#fff;color:var(--ink)}
+
+/* confetti */
+.confetti{position:fixed;inset:0;pointer-events:none;z-index:50;overflow:hidden}
+.confetti i{position:absolute;top:-20px;width:10px;height:16px;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+
+footer{border-top:1px solid var(--line);padding-top:24px;padding-bottom:34px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer p{margin:0}footer a{color:#fff}
+
+@media (max-width:900px){
+  .signup{grid-template-columns:1fr;gap:34px}
+  .card-wrap{position:relative;top:0}
+  .facts{grid-template-columns:1fr 1fr}
+}
+@media (max-width:520px){
+  .grid2{grid-template-columns:1fr;gap:0}
+  .form{padding:24px 18px 22px;box-shadow:8px 8px 0 var(--ink)}
+  .brand b{font-size:11px}
+  .lead{font-size:17px}
+  .count div{min-width:64px}
+  .count b{font-size:26px}
+}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* ---------- Juliet Huddy: ON AIR ---------- */
+.stripes{position:absolute;top:0;right:0;bottom:0;width:22%;z-index:-1;background:repeating-linear-gradient(-14deg,var(--cream) 0 58px,var(--red) 58px 104px);clip-path:polygon(18% 0,100% 0,100% 100%,30% 100%)}
+.onair{display:inline-flex;align-items:center;gap:9px;background:#00000033;border:2px solid #ffffff3d;padding:6px 12px 6px 10px;font-size:12px;font-weight:bold;letter-spacing:.18em}
+.onair i{width:11px;height:11px;border-radius:50%;background:var(--red);box-shadow:0 0 0 0 #ec494aaa;animation:air 1.4s infinite}
+@keyframes air{0%{box-shadow:0 0 0 0 #ec494acc}70%{box-shadow:0 0 0 12px #ec494a00}100%{box-shadow:0 0 0 0 #ec494a00}}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding-top:34px;padding-bottom:72px}
+.hero h1{font-size:clamp(44px,6.6vw,92px);margin:18px 0 22px}
+.hero h1 .torn{font-size:1.02em;margin-top:.12em}
+.hero h1 small{display:block;font-size:.34em;letter-spacing:.02em;line-height:1.15;margin-bottom:.35em}
+.meta{display:flex;flex-wrap:wrap;gap:14px 18px;align-items:center;margin:26px 0 0}
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;text-decoration:none;font-family:'Arial Black',Arial,sans-serif;font-size:18px;padding:15px 22px 13px;box-shadow:6px 6px 0 var(--ink);transition:.12s}
+.cta:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.hero>*{min-width:0}
+.tv{position:relative;transform:rotate(1.4deg);min-width:0;max-width:100%}
+.ticker{max-width:100%}
+.tv .screen{position:relative;background:#000;border:14px solid var(--ink);border-radius:18px;box-shadow:14px 14px 0 #00000040;overflow:hidden;aspect-ratio:16/10}
+.tv .screen img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;filter:saturate(1.05)}
+.tv .screen:after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,#0000 0 3px,#0000000f 3px 4px);pointer-events:none}
+.bug{position:absolute;top:14px;left:14px;z-index:2;display:flex;gap:6px;font-family:'Arial Black',Arial,sans-serif;font-size:12px}
+.bug b{background:var(--red);color:#fff;padding:4px 8px 3px}.bug span{background:#000a;color:#fff;padding:4px 8px 3px}
+.lower{position:absolute;left:0;right:0;bottom:0;z-index:2}
+.lower .nm{display:inline-block;background:var(--cream);color:var(--ink);font-family:'Arial Black',Arial,sans-serif;font-size:clamp(14px,1.7vw,20px);padding:6px 14px 5px;margin-left:14px}
+.lower .rl{display:block;background:var(--ink);color:#fff;font-size:12px;font-weight:bold;letter-spacing:.06em;padding:6px 14px;margin-left:14px;width:max-content;max-width:90%}
+.ticker{display:flex;background:var(--red);color:#fff;font-family:'Arial Black',Arial,sans-serif;font-size:13px;overflow:hidden;white-space:nowrap;margin-top:6px}
+.ticker>b{background:var(--yellow);color:var(--ink);padding:7px 12px;position:relative;z-index:1;flex:none}
+.ticker .run{display:flex;animation:run 26s linear infinite;padding:7px 0}
+.ticker .run span{padding-right:44px}
+@keyframes run{to{transform:translateX(-50%)}}
+.star{position:absolute;color:var(--yellow);font-size:52px;line-height:1;text-shadow:0 0 0 #0000;animation:spin 9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* wie is */
+.who{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.show{background:var(--cream);color:var(--ink);padding:24px 22px 22px;position:relative;box-shadow:8px 8px 0 var(--ink);transform:rotate(var(--r,0deg));transition:transform .2s}
+.show:hover{transform:rotate(0) translateY(-4px)}
+.show:nth-child(1){--r:-1.2deg}.show:nth-child(2){--r:.8deg}.show:nth-child(3){--r:-.5deg}
+.show .net{font-size:11px;font-weight:bold;letter-spacing:.18em;color:var(--red);text-transform:uppercase}
+.show h3{font-size:24px;margin:10px 0 8px}
+.show p{margin:0;color:#3a5583;font-size:15px}
+.show .ch{position:absolute;right:14px;top:12px;font-family:'Arial Black',Arial,sans-serif;font-size:13px;background:var(--ink);color:#fff;padding:3px 7px}
+.topics{display:flex;flex-wrap:wrap;gap:16px;margin-top:6px}
+.topics .torn{font-family:'Arial Black',Arial,sans-serif;font-size:clamp(28px,4.6vw,54px);padding:.06em .4em .1em}
+.topics .torn:nth-child(2){transform:rotate(1.4deg);background:var(--yellow)}
+.topics .torn:nth-child(3){transform:rotate(-.6deg);background:var(--red);color:#fff}
+.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:38px;counter-reset:s}
+.flow div{border-top:4px solid var(--yellow);padding-top:14px}
+.flow div:before{counter-increment:s;content:'0' counter(s);font-family:'Courier New',monospace;color:var(--yellow);font-weight:bold;letter-spacing:.1em}
+.flow h3{font-size:22px;margin:6px 0 4px}.flow p{margin:0;color:var(--muted)}
+
+/* perskaart */
+.lanyard{display:flex;flex-direction:column;align-items:center}
+.strap{width:30px;height:110px;background:repeating-linear-gradient(180deg,var(--red) 0 14px,var(--cream) 14px 28px);clip-path:polygon(0 0,100% 0,78% 100%,22% 100%)}
+.clip{width:46px;height:22px;background:linear-gradient(#cfd5de,#8a94a3);border-radius:4px 4px 8px 8px;margin-top:-4px;box-shadow:inset 0 -3px 0 #0003}
+.pass{width:min(100%,360px);background:var(--paper);color:var(--ink);border-radius:16px;box-shadow:16px 18px 0 #0000004d;overflow:hidden;transform-origin:50% -120px;animation:swing 5s ease-in-out infinite;margin-top:-2px}
+@keyframes swing{0%,100%{transform:rotate(-2.2deg)}50%{transform:rotate(2deg)}}
+.pass .hole{width:54px;height:10px;border-radius:9px;background:var(--navy);margin:12px auto 0}
+.pass .band{background:var(--red);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:12px 18px 10px;margin-top:12px}
+.pass .band b{font-family:'Arial Black',Arial,sans-serif;font-size:30px;letter-spacing:.06em;line-height:1}
+.pass .band span{font-size:10px;font-weight:bold;letter-spacing:.16em;text-align:right;line-height:1.3}
+.pass .body{padding:20px 18px 6px;display:grid;grid-template-columns:86px 1fr;gap:16px;align-items:center}
+.pass .ph{width:86px;height:104px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Arial Black',Arial,sans-serif;font-size:34px;position:relative;overflow:hidden}
+.pass .ph:after{content:'★';position:absolute;right:6px;bottom:2px;font-size:16px;color:var(--yellow)}
+.pass .lbl{font-size:10px;font-weight:bold;letter-spacing:.16em;color:#6a7d9c}
+.pass .nm{font-family:'Arial Black',Arial,sans-serif;font-size:21px;line-height:1.08;word-break:break-word;min-height:46px}
+.pass .nm.empty{color:#b5bfd0}
+.pass .rows{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;padding:12px 18px 4px}
+.pass .rows b{display:block;font-family:'Arial Black',Arial,sans-serif;font-size:14px}
+.pass .foot{display:flex;justify-content:space-between;align-items:flex-end;padding:12px 18px 18px;gap:12px}
+.pass .bars{height:40px;flex:1;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 7px,transparent 7px 9px,var(--ink) 9px 10px,transparent 10px 13px)}
+.pass .plus{font-family:'Arial Black',Arial,sans-serif;background:var(--yellow);padding:6px 9px;font-size:14px;transform:rotate(-6deg)}
+.pass .q{margin:0 18px 6px;font-size:13px;font-style:italic;color:#3a5583;border-left:3px solid var(--red);padding-left:10px;display:none}
+.pass .q.on{display:block}
+.under{color:var(--muted);font-size:13px;text-align:center;margin-top:22px}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;gap:40px;padding-top:16px}
+  .stripes{width:16%;opacity:.55}
+  .who,.flow{grid-template-columns:1fr}
+}
+@media (max-width:520px){.lower .rl{font-size:9.5px;padding:4px 10px}.tv .star{display:none}.stripes{display:none}.tv .screen{border-width:9px}.top .onair{display:none}}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="stripes" aria-hidden="true"></div>
+  <header class="wrap top">
+    <a class="brand" href="https://jovdhvb.nl" aria-label="JOVD Hart van Brabant — alle aanmeldingen"><svg aria-hidden="true" focusable="false" version="1.1" viewBox="0 0 3015.601 1993.488" xmlns="http://www.w3.org/2000/svg" ><defs /><g transform="matrix(1.3333333,0,0,-1.3333333,-1326.8449,-486.64056)"><g transform="matrix(0.88652944,0,0,0.88652944,995.13533,-1860.0946)" style="fill:currentColor"><path d="m 2102.96,404.34 c -0.49,-9.508 -8.82,-16.762 -18.54,-16.121 l -12.28,0.851 c -9.66,0.641 -17.15,8.91 -16.76,18.328 l 24.18,483.629 c 0.44,9.481 8.78,17.301 18.49,17.301 h 12.4 c 9.77,0.078 17.38,-7.75 16.97,-17.301 z m 410.5,1216.09 -322.68,-40.52 c -19.48,-1.86 -36.14,-19.09 -37.12,-38.26 l -22.54,-461.06 -76.65,-2.36 c -18.69,-0.61 -43.3,-13.97 -54.56,-29.74 L 1493.47,339.469 c -20.17,-26.66 -8.36,-55.86 20.68,-58.278 l 924.92,-87.32 c 21.33,-1.891 39.76,12.988 40.84,33.149 l 71.22,1360.05 c 1.13,20.46 -15.8,35.45 -37.67,33.36" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path d="M 735.328,1003.86 1219.27,134.488 c 3.96,-6.777 7.07,-7.269 7.92,-7.269 0.7,0.121 2.54,0.203 5.88,4.57 l 666.57,897.631 c 2.83,3.75 3.89,6.82 4.14,8.21 -1.02,0.32 -3.19,0.91 -6.48,0.91 h -0.38 l -221.83,-5.51 c -15.25,0.35 -42.66,-14.81 -51.52,-29.27 h 13.62 L 1274.73,489.129 c -7.52,-11.367 -19.2,-19.629 -32.88,-19.629 -15.43,0 -27.85,10.41 -34.52,23.789 L 947.758,992.441 c -5,11.079 -23.91,22.559 -33.688,21.729 h -0.152 l -178.27,-4.59 c -1.16,0 -1.89,-0.07 -2.257,-0.18 0,-0.82 0.437,-2.78 1.937,-5.54 M 1227.19,94.5313 c -15.69,0 -29,10.1597 -36.53,24.0777 L 706.641,987.895 c -3.762,6.957 -6.09,14.295 -6.09,21.935 -0.043,8.47 3.437,17.61 10.047,23.63 6.711,6.07 15.519,8.73 24.113,8.99 l 178.199,4.56 h 1.16 c 25.879,-0.78 50.039,-16.52 62.84,-39.5 l 259.35,-499.182 c 1.66,-3.008 3.41,-4.68 4.31,-5.5 1.12,-0.629 1.28,-0.566 1.28,-0.566 0,0 2.14,-0.063 5.77,5.136 l 362.54,514.752 c 17.4,24.57 34.4,42.23 64.02,43.62 l 221.02,5.53 c 1.09,0.1 1.72,0 2.1,0 9.66,0 19.02,-1.92 26.81,-7.69 7.83,-5.59 12.85,-15.73 12.7,-25.13 -0.15,-10.44 -4.42,-19.81 -10.92,-28.65 L 1259.42,112.102 c -7.65,-10.43 -19.33,-17.5707 -32.18,-17.5707 h -0.05" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path d="m 997.41,1092.18 c 0,0 -17.012,8.21 -39.57,8.48 l -5.801,176.63 c 23.602,-5.05 56.401,-13.29 66.031,-21.73 -5.62,-68.28 83.35,-75.13 110.32,-80.98 -35.16,-40.18 -130.98,-82.4 -130.98,-82.4 m 727.74,357.89 c 86.58,139.36 11.55,225.56 -18.61,236.41 23.29,-41.55 17.15,-112.14 -12.23,-174.87 -119.77,-54.97 -161.37,-156.74 -139.91,-234.39 12.27,-44.44 3.51,-120.91 -17.61,-154.5 -59.15,-94.16 15.36,-111.21 15.36,-111.21 0,0 -5.22,66.83 21.93,69.45 50.37,4.86 33.81,-63.05 -20.36,-88.261 -24.64,-11.469 -69.64,-17.32 -107.26,2.063 -75.91,39.108 -48.17,187.538 65.68,364.618 32.67,50.83 35.09,106.5 27.18,140.9 62.96,34.57 47.24,106.57 -21.74,81.77 0,0 -67.79,57.48 -109.24,32.66 -68.64,-41.14 -51.6,-57.68 -96.36,-66.37 -9.8,-1.91 -49.94,-12.1 -48.22,-50.34 1.51,-33.94 4.75,-46.73 19.27,-47.09 42.4,3.27 85.87,46.77 67.84,-41.18 -5.75,-27.95 -73.89,-24.09 -73.89,-24.09 -5.3,-18.31 2.69,-39.93 2.69,-39.93 67.15,6.57 57.24,-80.24 -26.9,-10.53 -77.15,-51.67 -189.11,-46.02 -226.77,-20.42 -1.37,89.71 -23.26,108.1 -23.26,108.1 -17.06,19.65 -40.619,42.6 -57.162,51.9 L 938,1543.18 c 46.441,23.11 93.26,46.13 141.89,63.88 l -9.42,20.29 c -55.07,-17.18 -91.431,-23.63 -91.431,-23.63 -28.019,35.67 -48.301,74.8 -48.301,74.8 -45.66,-44.98 -123.297,-61.51 -123.297,-61.51 2.411,-29.01 17.098,-80.69 13.379,-84.58 -4.789,-8.05 -38.832,-32.6 -78.41,-43.32 l 10.34,-25.81 c 50.93,15.09 100.211,37.94 149.559,62.2 3.39,-32.06 8.242,-83.24 8.242,-113.39 0,0 -35.692,-52.61 -22.071,-106.16 8.551,27.8 17.391,33.68 24.571,29.35 l 7.871,-242.39 c -10.301,-4.87 -20.594,-12.43 -30.024,-23.82 -23.597,-28.78 40.383,-11.85 3.493,-83.871 -7.512,-14.66 8.648,-18.699 30.5,-14.258 l 9.097,-69.332 c 0,0 3.453,-21.707 21.871,-19.481 18.469,2.25 15.262,22.622 15.262,22.622 v 0.07 l -9.441,79.949 c 3.289,1.871 6.48,3.883 9.558,6 26.262,31.911 51.202,-6.359 65.212,6.473 40.37,37.228 164.67,85.438 201.01,86.248 -3.62,-18.69 -11.71,-71.43 0.79,-121.451 -109.51,-75.637 -155.03,-99.938 -167.78,-151.77 -9.04,-36.277 -0.77,-113.43 -21.59,-104.328 -20.56,9.16 -55.079,46.769 -77.071,-24.922 -41.25,-17.641 -32.528,-105.918 -3.118,-95.211 25.02,4.641 64.449,54.262 135.879,-11.687 11.8,43.039 -27.56,95.531 121,73.289 -32.36,104.929 24.87,192.179 64.92,229.468 67.14,-68.238 195.18,-161.386 216.43,-176.726 C 1378.58,640.93 1404.64,519 1404.64,519 c 0,0 69.53,39.082 109.27,-4.621 -25.24,145.601 163.61,202.18 172.78,227.121 -40.59,-7.02 -163.54,28.359 -160.68,131.852 2.56,93.878 70.71,29.847 37.02,-53.473 18.06,-7.199 94.96,45.461 67.97,110.402 58.31,155.639 -43.02,264.749 -39.04,343.489 3.05,60.45 38.9,71.46 51.1,42.25 11.82,-28.37 -20.01,-87.12 -20.01,-87.12 0,0 162.31,136.48 102.1,221.17 m -554.78,-3.39 c 17.14,0.11 31.32,-3.98 45.86,-13.38 14.74,-9.49 29.2,-34.46 81.82,-25.01 20.77,3.74 22.59,26.12 1.39,20.97 -32.97,-8.01 -44.14,13.32 -58.11,22.54 -16.9,11.17 -30.49,13.37 -50.47,11.96 -18.97,-1.34 -44.35,-17.24 -20.49,-17.08" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path d="m 613.383,499.871 c -0.281,-7.633 -5.649,-13.383 -11.891,-12.98 l -7.84,0.539 c -6.16,0.332 -10.918,6.91 -10.648,14.422 l 16.098,387.246 c 0.32,7.511 5.632,13.8 11.851,13.8 h 7.949 c 6.262,0 11.141,-6.179 10.821,-13.8 z M 994.242,375.719 653.621,1013.04 c -6.726,12.39 -22.418,22.31 -34.906,21.9 l -262.953,-6.52 c -11.379,-0.19 -21.199,-12.31 -21.758,-26.81 L 310.543,417.629 c -0.559,-14.301 8.199,-26.899 19.52,-27.918 l 641.152,-56.5 c 25.91,-1.742 34.225,22.461 23.027,42.508" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path d="m 296.555,1104.22 c -0.602,-14.46 -10.758,-26.51 -22.539,-26.78 l -216.1293,-6.49 c -10.9922,-0.28 -19.4023,10.65 -18.7812,24.35 l 10.0898,265.02 c 0.6406,13.86 9.8985,25.92 20.9492,26.89 l 216.9805,18.44 c 11.879,0.96 21.078,-10.05 20.48,-24.39 l -11.05,-277.04" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path d="M 254.32,22.7383 C 253.742,8.53906 243.75,-1.64844 232.09,0.21875 L 18.6211,32.7891 C 7.85156,34.4492 -0.480469,46.9414 0.0195313,60.5195 L 36.2617,1000.43 c 0.5196,13.77 9.8281,25.23 20.7813,25.52 l 216.148,4.61 c 11.758,0.37 20.969,-11.22 20.34,-25.64 L 254.32,22.7383" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" /></g></g></svg><div><b>JOVD HART VAN BRABANT</b><small>PRESENTEERT</small></div></a>
+    <span class="onair"><i></i>ON AIR · 26.01</span>
+  </header>
+
+  <section class="wrap hero" aria-labelledby="t">
+    <div>
+      <p class="kicker">Achter de Amerikaanse media</p>
+      <h1 id="t"><small>Een kijkje achter de schermen met</small><span class="torn">Juliet Huddy</span></h1>
+      <p class="lead">Hoe werkt de Amerikaanse mediawereld van binnenuit? En hoe verhouden journalistiek, politieke invloed en persoonlijke overtuigingen zich tot elkaar? Een avond over media, macht &amp; Amerikaanse politiek.</p>
+      <div class="meta">
+        <span class="sticker">DI 26 JANUARI 2027</span>
+        <a class="cta" href="#aanmelden">Meld je aan <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="count" id="count" aria-label="Aftellen tot de avond"></div>
+    </div>
+    <div class="tv" aria-hidden="true">
+      <span class="star" style="left:-26px;top:-30px">★</span>
+      <div class="screen">
+        <img src="banner.jpg" alt="" width="1536" height="710">
+        <div class="bug"><b>● LIVE</b><span>TILBURG</span></div>
+        <div class="lower"><span class="rl">FOX &amp; FRIENDS WEEKEND · THE MORNING SHOW · FOX NEWS</span></div>
+      </div>
+      <div class="ticker"><b>BREAKING</b><div class="run"><span>JOVD HART VAN BRABANT ONTVANGT JULIET HUDDY IN TILBURG ★ DINSDAG 26 JANUARI · AANVANG 19:30 ★ ’T ELFDE GEBOD ★ MEDIA, MACHT &amp; AMERIKAANSE POLITIEK ★ STEL JE VRAGEN EN PRAAT MEE ★</span><span>JOVD HART VAN BRABANT ONTVANGT JULIET HUDDY IN TILBURG ★ DINSDAG 26 JANUARI · AANVANG 19:30 ★ ’T ELFDE GEBOD ★ MEDIA, MACHT &amp; AMERIKAANSE POLITIEK ★ STEL JE VRAGEN EN PRAAT MEE ★</span></div></div>
+    </div>
+  </section>
+</div>
+
+<main>
+<div class="wrap">
+  <div class="facts reveal">
+    <div class="fact"><span>Wanneer</span><b>Dinsdag 26 januari 2027</b></div>
+    <div class="fact"><span>Aanvang</span><b>19:30 uur</b></div>
+    <div class="fact"><span>Waar</span><b><a href="https://www.google.com/maps/search/?api=1&amp;query=%E2%80%99t+Elfde+Gebod+Tilburg" target="_blank" rel="noopener">’t Elfde Gebod, Tilburg</a></b></div>
+    <div class="fact"><span>Door</span><b>JOVD Hart van Brabant 🗽</b></div>
+  </div>
+</div>
+
+<section class="wrap blk reveal" aria-labelledby="who-t">
+  <p class="kicker">De gast</p>
+  <h2 id="who-t">Jarenlang voor de camera.<br>Én erachter.</h2>
+  <p class="sub">Juliet Huddy is een Amerikaanse journalist en presentatrice. Met haar ervaring voor de camera en achter de schermen is er genoeg gespreksstof voor een hele avond.</p>
+  <div class="who">
+    <article class="show"><span class="ch">CH 1</span><span class="net">Presentatrice</span><h3>Fox &amp; Friends Weekend</h3><p>Het weekendontbijt van Fox News, waar zij een van de gezichten was.</p></article>
+    <article class="show"><span class="ch">CH 2</span><span class="net">Presentatrice</span><h3>The Morning Show with Mike and Juliet</h3><p>Ochtendtelevisie met haar eigen naam in de titel.</p></article>
+    <article class="show"><span class="ch">CH 3</span><span class="net">Jarenlang</span><h3>Fox News</h3><p>Van binnenuit meegemaakt hoe Amerikaans nieuws gemaakt wordt.</p></article>
+  </div>
+</section>
+
+<section class="wrap blk reveal" aria-labelledby="topic-t">
+  <p class="kicker">Waar het over gaat</p>
+  <h2 id="topic-t" class="sr">Onderwerpen</h2>
+  <div class="topics"><span class="torn">Media</span><span class="torn">Macht</span><span class="torn">Amerikaanse politiek</span></div>
+  <div class="flow">
+    <div><h3>Kom luisteren</h3><p>Verhalen uit de Amerikaanse mediawereld, rechtstreeks van iemand die erin werkte.</p></div>
+    <div><h3>Stel je vragen</h3><p>Zet je vraag alvast in je aanmelding. Wie weet stellen we ’m namens jou.</p></div>
+    <div><h3>Praat mee</h3><p>Journalistiek, politieke invloed en overtuiging: wat vind jij?</p></div>
+  </div>
+</section>
+
+<section class="wrap signup" id="aanmelden" aria-labelledby="form-t">
+  <div class="card-wrap">
+    <div class="lanyard" aria-hidden="true">
+      <div class="strap"></div><div class="clip"></div>
+      <div class="pass">
+        <div class="hole"></div>
+        <div class="band"><b>PRESS</b><span>JOVD HART VAN BRABANT<br>×  JULIET HUDDY</span></div>
+        <div class="body">
+          <div class="ph" id="initials">?</div>
+          <div><div class="lbl">NAAM</div><div class="nm" id="pass-name" data-live="voornaam+achternaam" data-upper data-empty="JOUW NAAM HIER"></div></div>
+        </div>
+        <div class="rows">
+          <div><span class="lbl">DATUM</span><b>26.01.2027</b></div>
+          <div><span class="lbl">AANVANG</span><b>19:30</b></div>
+          <div><span class="lbl">LOCATIE</span><b>’T ELFDE GEBOD</b></div>
+          <div><span class="lbl">TOEGANG</span><b>ALL AREAS</b></div>
+        </div>
+        <p class="q" id="pass-q"></p>
+        <div class="foot"><div class="bars"></div><span class="plus hidden" id="pass-plus">+1</span></div>
+      </div>
+    </div>
+    <p class="under">Je perskaart vult zich terwijl je typt.</p>
+  </div>
+
+  <div class="form" role="region" aria-labelledby="form-t">
+    <div id="form-step">
+      <p class="kicker" style="color:var(--red)">Aanmelden</p>
+      <h2 id="form-t">Claim je plek in de studio.</h2>
+      <p class="intro">Vul je gegevens in. Je mailprogramma opent met een kant-en-klare aanmelding: alleen nog op verzenden drukken.</p>
+      <form id="signup-form" novalidate>
+        <div class="grid2">
+          <div class="field" data-req><label for="voornaam">Voornaam</label><input id="voornaam" type="text" autocomplete="given-name" data-label="Voornaam" required><div class="err">Vul je voornaam in.</div></div>
+          <div class="field" data-req><label for="achternaam">Achternaam</label><input id="achternaam" type="text" autocomplete="family-name" data-label="Achternaam" required><div class="err">Vul je achternaam in.</div></div>
+        </div>
+        <div class="field" data-req><label for="email">E-mailadres</label><input id="email" type="email" autocomplete="email" data-label="E-mail" required><div class="err">Vul een geldig e-mailadres in.</div></div>
+        <div class="field" data-req><label for="tel">Telefoonnummer</label><input id="tel" type="tel" autocomplete="tel" inputmode="tel" placeholder="06 12345678" data-label="Telefoon" required><div class="err">Vul een geldig telefoonnummer in (06… of met landcode).</div></div>
+        <div class="field chips-field"><span class="legend" id="lid-l">Ben je lid van de JOVD?</span>
+          <div class="chips" role="radiogroup" aria-labelledby="lid-l" data-label="JOVD-lid" data-req>
+            <label><input type="radio" name="lid" value="ja"><span>Ja</span></label>
+            <label><input type="radio" name="lid" value="nee"><span>Nee</span></label>
+            <label><input type="radio" name="lid" value="nee, maar ik wil wel meer weten"><span>Nee, maar vertel me meer</span></label>
+          </div><div class="err">Maak een keuze.</div></div>
+        <label class="check"><input type="checkbox" id="plus1" data-label="Neemt iemand mee"><span>Ik neem iemand mee</span></label>
+        <div class="field hidden" id="plus1-field"><label for="plus1naam">Naam van wie je meeneemt</label><input id="plus1naam" type="text" data-label="Naam introducee"><div class="err">Vul de naam in.</div></div>
+        <div class="field"><label for="vraag">Jouw vraag voor Juliet <span class="opt">(optioneel)</span></label><textarea id="vraag" maxlength="400" placeholder="Wat wil jij haar vragen?" data-label="Vraag voor Juliet"></textarea></div>
+        <label class="check"><input type="checkbox" id="privacy"><span>Ik ga akkoord dat JOVD Hart van Brabant mijn gegevens gebruikt voor deze avond (zie hieronder).</span></label>
+        <button class="go" type="submit">Meld me aan <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="privacy"><strong>Privacy:</strong> deze pagina gebruikt geen cookies of trackers en slaat niets op. Je aanmelding gaat alleen via jouw eigen e-mail naar de secretaris van JOVD Hart van Brabant. We gebruiken je gegevens uitsluitend voor deze avond en verwijderen ze daarna. Inzien of laten verwijderen? Mail <a href="mailto:secretaris@jovdhartvanbrabant.nl">secretaris@jovdhartvanbrabant.nl</a>. Liever appen? Julian de Haas: <a href="https://wa.me/31612059013">+31 6 12 05 90 13</a>.</p>
+    </div>
+
+    <div id="done-step" class="done hidden" aria-live="polite">
+      <p class="kicker" style="color:var(--red)">● Je staat bijna op de lijst</p>
+      <h2>Top, <span id="done-name">jij</span>! Druk nog even op verzenden.</h2>
+      <p>Je mailprogramma heeft een aanmelding klaargezet. Pas als je die verstuurt, sta je op de lijst. Je krijgt bevestiging van de secretaris.</p>
+      <div class="actions">
+        <a class="btn solid ics" href="#">📅 Zet 26 januari in je agenda</a>
+        <a class="btn share" href="#" target="_blank" rel="noopener">📣 Stuur door naar een vriend</a>
+        <button class="btn" type="button" id="show-copy">Opende je mail niet? Kopieer de aanmelding</button>
+      </div>
+      <div class="copybox"><textarea id="copy-text" readonly aria-label="Tekst van je aanmelding"></textarea><button class="btn" type="button" id="copy-btn" style="width:100%;margin-top:8px">Kopieer tekst</button><p class="privacy">Plak dit in een mail aan secretaris@jovdhartvanbrabant.nl.</p></div>
+      <p class="privacy"><button type="button" id="again" style="background:none;border:0;padding:0;text-decoration:underline;color:var(--ink)">Iets aanpassen?</button></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap"><p>JOVD Hart van Brabant · <a href="https://jovd.nl/afdelingen/hart_van_brabant/agenda/6138/">Deze avond op jovd.nl</a></p><p><a href="https://jovdhvb.nl">Alle aanmeldingen → jovdhvb.nl</a></p></footer>
+
+<script>
+window.EVENT={uid:'juliet-huddy-20270126',title:'JOVD HvB: Juliet Huddy — achter de schermen van de Amerikaanse media',start:'2027-01-26T19:30:00+01:00',end:'2027-01-26T22:00:00+01:00',location:'’t Elfde Gebod, Tilburg',calDesc:'Een avond over media, macht en Amerikaanse politiek met Juliet Huddy. Aanvang 19:30.',
+subject:'Aanmelding Juliet Huddy',intro:'Hoi! Ik meld me aan voor de avond met Juliet Huddy op dinsdag 26 januari 2027 (19:30, ’t Elfde Gebod, Tilburg).',
+shareText:'Ga je mee? Juliet Huddy (ex-Fox News) komt 26 januari naar Tilburg. Aanmelden:',
+onLive:function(f){var v=function(id){return (document.getElementById(id).value||'').trim()};var ini=(v('voornaam').charAt(0)+v('achternaam').replace(/^(van|de|der|den|het|ten|ter|v\.?d\.?)\s+/ig,'').replace(/^(van|de|der|den)\s+/ig,'').charAt(0)).toUpperCase();document.getElementById('initials').textContent=ini||'?';
+  document.getElementById('pass-name').classList.toggle('empty',!v('voornaam')&&!v('achternaam'));
+  var p=document.getElementById('plus1').checked;document.getElementById('plus1-field').classList.toggle('hidden',!p);document.getElementById('plus1-field').toggleAttribute('data-req',p);document.getElementById('pass-plus').classList.toggle('hidden',!p);
+  var q=v('vraag'),qe=document.getElementById('pass-q');qe.classList.toggle('on',!!q);qe.textContent=q?'“'+(q.length>90?q.slice(0,88)+'…':q)+'”':''}};
+</script>
+<script>
+/* Gedeelde logica voor de JOVD HvB-aanmeldpagina's. Geen opslag, geen trackers: alles gaat via de mail van de bezoeker. */
+(function(){
+var C=window.EVENT;var MAIL='secretaris@jovdhartvanbrabant.nl';
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return [].slice.call((r||document).querySelectorAll(s))};
+var clean=function(v){return (v||'').replace(/\s+/g,' ').trim()};
+
+/* in beeld schuiven */
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});$$('.reveal').forEach(function(el){io.observe(el)})}else $$('.reveal').forEach(function(el){el.classList.add('in')});
+
+/* aftellen */
+var cd=$('#count');
+function tick(){if(!cd)return;var ms=new Date(C.start)-new Date();if(ms<=0){cd.innerHTML='<div style="min-width:auto;padding:12px 16px"><b style="font-size:20px">Vanavond!</b></div>';return}
+var d=Math.floor(ms/864e5),h=Math.floor(ms/36e5)%24,m=Math.floor(ms/6e4)%60,s=Math.floor(ms/1e3)%60;
+var p=function(n){return String(n).padStart(2,'0')};
+cd.innerHTML=[[d,'dagen'],[p(h),'uur'],[p(m),'min'],[p(s),'sec']].map(function(x){return '<div><b>'+x[0]+'</b><span>'+x[1]+'</span></div>'}).join('')}
+tick();setInterval(tick,1000);
+
+/* live kaart */
+var f=$('#signup-form');
+function live(){$$('[data-live]').forEach(function(el){var src=el.getAttribute('data-live').split('+').map(function(id){var i=document.getElementById(id);return i?clean(i.value):''}).filter(Boolean).join(' ');el.textContent=src?(el.hasAttribute('data-upper')?src.toUpperCase():src):el.getAttribute('data-empty')});
+  if(C.onLive)C.onLive(f)}
+f.addEventListener('input',live);f.addEventListener('change',live);live();
+
+/* controle */
+var reEmail=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+function phoneOk(v){var t=v.replace(/[\s\-().]/g,'');return /^0\d{9}$/.test(t)||/^(\+|00)\d{7,15}$/.test(t)}
+function check(field){var i=$('input,textarea,select',field);if(!i)return true;var v=clean(i.value),ok=true;
+  if(field.hasAttribute('data-req')&&!v)ok=false;
+  else if(v&&i.type==='email'&&!reEmail.test(v))ok=false;
+  else if(v&&i.type==='tel'&&!phoneOk(v))ok=false;
+  field.classList.toggle('bad',!ok);return ok}
+$$('.field',f).forEach(function(fl){var i=$('input,textarea,select',fl);if(i){i.addEventListener('blur',function(){if(clean(i.value))check(fl)});i.addEventListener('input',function(){if(fl.classList.contains('bad'))check(fl)});i.addEventListener('change',function(){if(fl.classList.contains('bad')&&i.type==='radio'){var g=i.closest('.chips');g&&groupOk(g)}})}});
+function groupOk(g){var ok=!g.hasAttribute('data-req')||!!$('input:checked',g);(g.closest('.field')||g).classList.toggle('bad',!ok);return ok}
+
+/* tekst van de mail */
+function body(){var L=[];
+  $$('[data-label]',f).forEach(function(el){var lab=el.getAttribute('data-label'),v;
+    if(el.matches('.chips,.vote,fieldset')){v=$$('input:checked',el).map(function(x){return x.value}).join(', ')}
+    else if(el.type==='checkbox'){v=el.checked?'ja':'nee'}else v=clean(el.value);
+    if(v&&!(el.closest('.hidden')))L.push(lab+': '+v)});
+  return C.intro+'\n\n'+L.join('\n')+'\n\n— verstuurd via '+location.hostname}
+function name(){return clean($('#voornaam').value+' '+$('#achternaam').value)}
+
+f.addEventListener('submit',function(e){e.preventDefault();
+  var ok=true;$$('.field',f).forEach(function(fl){if(!check(fl))ok=false});$$('.chips[data-req]',f).forEach(function(g){if(!groupOk(g))ok=false});
+  var pv=$('#privacy');if(pv&&!pv.checked){ok=false;pv.closest('.check').style.color='#c22b2c'}else if(pv)pv.closest('.check').style.color='';
+  if(!ok){var b=$('.bad',f)||pv;b&&b.scrollIntoView({behavior:'smooth',block:'center'});var fi=b&&$('input,textarea',b);fi&&fi.focus({preventScroll:true});return}
+  var txt=body(),subj=C.subject+' — '+name();
+  var url='mailto:'+MAIL+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(txt);
+  $('#copy-text').value='Aan: '+MAIL+'\nOnderwerp: '+subj+'\n\n'+txt;
+  if(C.onSubmit)C.onSubmit(function(){finish(url)});else finish(url)});
+function finish(url){location.href=url;
+  setTimeout(function(){$('#form-step').classList.add('hidden');var d=$('#done-step');d.classList.remove('hidden');$('#done-name').textContent=clean($('#voornaam').value)||'jij';d.scrollIntoView({behavior:'smooth',block:'start'});confetti()},350)}
+
+$('#show-copy').addEventListener('click',function(){$('.copybox').classList.add('show');var t=$('#copy-text');t.focus();t.select()});
+$('#copy-btn').addEventListener('click',function(){var t=$('#copy-text');(navigator.clipboard?navigator.clipboard.writeText(t.value):Promise.reject()).then(function(){$('#copy-btn').textContent='Gekopieerd ✓'},function(){t.select();document.execCommand('copy');$('#copy-btn').textContent='Gekopieerd ✓'})});
+$('#again').addEventListener('click',function(){$('#done-step').classList.add('hidden');$('#form-step').classList.remove('hidden')});
+
+/* agenda (.ics) */
+function ics(){var z=function(d){return new Date(d).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'')};
+  var esc=function(s){return s.replace(/[,;\\]/g,'\\$&').replace(/\n/g,'\\n')};
+  return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//JOVD Hart van Brabant//NL','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT','UID:'+C.uid+'@jovdhvb.nl','DTSTAMP:'+z(new Date()),'DTSTART:'+z(C.start),'DTEND:'+z(C.end),'SUMMARY:'+esc(C.title),'LOCATION:'+esc(C.location),'DESCRIPTION:'+esc(C.calDesc+'\n'+location.href),'URL:'+location.href,'END:VEVENT','END:VCALENDAR'].join('\r\n')}
+$$('.ics').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();var b=new Blob([ics()],{type:'text/calendar;charset=utf-8'});var u=URL.createObjectURL(b);var l=document.createElement('a');l.href=u;l.download=C.uid+'.ics';document.body.appendChild(l);l.click();setTimeout(function(){URL.revokeObjectURL(u);l.remove()},500)})});
+
+/* delen */
+$$('.share').forEach(function(a){a.addEventListener('click',function(e){var t=C.shareText+' '+location.origin+'/';if(navigator.share){e.preventDefault();navigator.share({title:C.title,text:C.shareText,url:location.origin+'/'}).catch(function(){})}else a.href='https://wa.me/?text='+encodeURIComponent(t)})});
+
+/* confetti in huisstijlkleuren */
+function confetti(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=document.createElement('div');c.className='confetti';var k=['#ec494a','#ffe073','#f8eddb','#0071cd','#fff'];
+  for(var i=0;i<90;i++){var p=document.createElement('i');p.style.left=Math.random()*100+'vw';p.style.background=k[i%k.length];p.style.animationDuration=(2.2+Math.random()*2.2)+'s';p.style.animationDelay=(Math.random()*.6)+'s';p.style.transform='rotate('+Math.random()*360+'deg)';if(i%3==0)p.style.clipPath='polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)',p.style.width=p.style.height='14px';c.appendChild(p)}
+  document.body.appendChild(c);setTimeout(function(){c.remove()},5200)}
+})();
+
+</script>
+</body>
+</html>
